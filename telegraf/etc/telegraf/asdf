@@ -1,0 +1,21 @@
+* Plugin: cpu, Collection 1
+* Plugin: cpu, Collection 2
+> cpu,cpu=cpu0 usage_guest=0,usage_guest_nice=0,usage_idle=100,usage_iowait=0,usage_irq=0,usage_nice=0,usage_softirq=0,usage_steal=0,usage_system=0,usage_user=0 1464937197732643031
+> cpu,cpu=cpu1 usage_guest=0,usage_guest_nice=0,usage_idle=100,usage_iowait=0,usage_irq=0,usage_nice=0,usage_softirq=0,usage_steal=0,usage_system=0,usage_user=0 1464937197732643031
+> cpu,cpu=cpu-total usage_guest=0,usage_guest_nice=0,usage_idle=100,usage_iowait=0,usage_irq=0,usage_nice=0,usage_softirq=0,usage_steal=0,usage_system=0,usage_user=0 1464937197732643031
+* Plugin: diskio, Collection 1
+> diskio,name=sda2,serial=HITACHI_HTS722016K9SA00_080724DP1D70DGGP8GXT io_time=790i,read_bytes=688128i,read_time=790i,reads=168i,write_bytes=0i,write_time=0i,writes=0i 1464937197783138428
+> diskio,name=sda3,serial=HITACHI_HTS722016K9SA00_080724DP1D70DGGP8GXT io_time=76546851i,read_bytes=146083996672i,read_time=26260946i,reads=3313419i,write_bytes=53489143808i,write_time=72733087i,writes=5779051i 1464937197783221540
+> diskio,name=sda,serial=HITACHI_HTS722016K9SA00_080724DP1D70DGGP8GXT io_time=76558105i,read_bytes=146086102016i,read_time=26263046i,reads=3313932i,write_bytes=53489143808i,write_time=72744137i,writes=5780261i 1464937197783276086
+> diskio,name=sda1,serial=HITACHI_HTS722016K9SA00_080724DP1D70DGGP8GXT io_time=1025i,read_bytes=704512i,read_time=1025i,reads=172i,write_bytes=0i,write_time=0i,writes=0i 1464937197783342017
+* Plugin: kernel, Collection 1
+> kernel boot_time=1459811186i,context_switches=3309491199i,interrupts=2035111045i,processes_forked=2351867i 1464937197783597009
+* Plugin: mem, Collection 1
+> mem available=2490351616i,available_percent=80.22293678575717,buffered=5795840i,cached=89427968i,free=2395127808i,total=3104288768i,used=613937152i,used_percent=19.777063214242833 1464937197783774617
+* Plugin: processes, Collection 1
+> processes blocked=0i,paging=0i,running=0i,sleeping=177i,stopped=0i,total=177i,total_threads=315i,zombies=0i 1464937197794856914
+* Plugin: swap, Collection 1
+> swap free=0i,in=0i,out=0i,total=0i,used=0i,used_percent=0 1464937197795207031
+* Plugin: system, Collection 1
+> system load1=0.32,load15=0.27,load5=0.55,n_users=5i,uptime=5126011i,uptime_format="59 days,  7:53" 1464937197796545341
+* Plugin: snmp, Collection 1
